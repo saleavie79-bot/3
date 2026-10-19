@@ -1,0 +1,21 @@
+{
+  "name": "student-login-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure student login-details lookup portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "import": "node scripts/import-excel.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "pg": "^8.13.1",
+    "xlsx": "^0.18.5"
+  }
+}
